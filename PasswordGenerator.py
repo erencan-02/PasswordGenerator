@@ -14,4 +14,4 @@ class PasswordGenerator:
 
 #Example
 gen = PasswordGenerator()
-print(gen.generatePWD(10,10))
+print(gen.generatePWD(10,3))

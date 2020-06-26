@@ -12,6 +12,3 @@ class PasswordGenerator:
         return ''.join(random.choices(''.join(self.container[:strength]), k=n)) 
 
 
-#Example
-gen = PasswordGenerator()
-print(gen.generatePWD(10,3))

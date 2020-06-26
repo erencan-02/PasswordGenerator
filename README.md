@@ -22,6 +22,10 @@ print(gen.generatePWD(LENGTH, STRENGTH))
 ## Note
 You can extend the string variety by adding a string to the container list.
 
+Password strenght depends on list indicies. 
+container = [0, 1, 2, 3] 
+strength:   [1, 2, 3, 4]
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
